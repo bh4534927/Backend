@@ -1,0 +1,85 @@
+{
+    "event": "charge.success",
+    "data": {
+        "id": 3999528947,
+        "domain": "live",
+        "status": "success",
+        "reference": "gmhuyq5cys",
+        "amount": 500,
+        "message": "madePayment",
+        "gateway_response": "Approved",
+        "paid_at": "2024-07-21T02:09:22.000Z",
+        "created_at": "2024-07-21T02:07:02.000Z",
+        "channel": "mobile_money",
+        "currency": "KES",
+        "ip_address": "102.0.11.78",
+        "metadata": {
+            "custom_fields": [
+                {
+                    "value": "Subscription For the App",
+                    "display_name": "Payment for",
+                    "variable_name": "payment_for"
+                },
+                {
+                    "value": "Sample School",
+                    "display_name": "Payment Ref",
+                    "variable_name": "payment_ref"
+                },
+                {
+                    "value": "Subscription",
+                    "display_name": "Payment For",
+                    "variable_name": "payment_for"
+                }
+            ]
+        },
+        "fees_breakdown": {
+            "amount": "8",
+            "formula": null,
+            "type": "paystack"
+        },
+        "log": null,
+        "fees": 8,
+        "fees_split": null,
+        "authorization": {
+            "authorization_code": "AUTH_9alh67b06t",
+            "bin": "011XXX",
+            "last4": "X235",
+            "exp_month": "12",
+            "exp_year": "9999",
+            "channel": "mobile_money",
+            "card_type": "",
+            "bank": "M-PESA",
+            "country_code": "KE",
+            "brand": "M-pesa",
+            "reusable": false,
+            "signature": null,
+            "account_name": null,
+            "receiver_bank_account_number": null,
+            "receiver_bank": null
+        },
+        "customer": {
+            "id": 175531604,
+            "first_name": null,
+            "last_name": null,
+            "email": "samuelmwangi@gmail.com",
+            "customer_code": "CUS_7yectfbcqw0bc95",
+            "phone": null,
+            "metadata": null,
+            "risk_action": "default",
+            "international_format_phone": null
+        },
+        "plan": {},
+        "subaccount": {},
+        "split": {},
+        "order_id": null,
+        "paidAt": "2024-07-21T02:09:22.000Z",
+        "requested_amount": 500,
+        "pos_transaction_data": null,
+        "source": {
+            "type": "api",
+            "source": "merchant_api",
+            "entry_point": "transaction_initialize",
+            "identifier": null
+        }
+    }
+}
